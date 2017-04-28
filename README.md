@@ -34,9 +34,9 @@ Staff
 ```
 After inputing required information, this script will go on a (in)finite loop to see if that class is open.
 
-## Required Libraries
+### Required Libraries
 * Selenium
 * Yagmail
 
-## Note from Author
+### Note from Author
 > Don't take my word for it. This actually works. Try it out if you can lol.
