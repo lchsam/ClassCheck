@@ -3,7 +3,7 @@
 ### Objective
 This script checks the UMass classes on Spire through your Shopping Cart Repeatedly
 ### Why?
-As a collge Freshman, it sucks to have the class I wanted to take to be full by the time I have the chance to enroll in it. I know it's a problem among my friends and it's also a problem for me as well. To fix this problem, I wrote this script that checks the Course catalogue website for UMass every 5 minutes to see if my class is open. It'll continuously check for it until that class is open. Once the class is open, the script sends an email to desired email address.
+As a collge Freshman, it sucks to have the class I wanted to take to be full by the time I have the chance to enroll in it. I know it's a problem among my friends and it's also a problem for me as well. To fix this problem, I wrote this script that checks the Course catalogue website of UMass (also known as Spire) every 5 minutes to see if my class is open. It'll continuously check for it until that class is open. Once the class is open, the script sends an email to desired email address.
 
 ### Sample Run
 ```
