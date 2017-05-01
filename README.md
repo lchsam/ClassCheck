@@ -6,6 +6,9 @@ This script checks the UMass classes on Spire through your Shopping Cart Repeate
 As a college Freshman, it sucks to have the class I want to take to be full by the time I have the chance to enroll in it (Almost all the time it's inevitable because of my late enrollment date and other factors). I know it's a problem among my friends and it's also a problem for me as well. To fix this problem, I wrote this script that checks the Course catalogue website of UMass (also known as Spire) every 5 minutes to see if my class is open. It'll continuously check for it until that class is open. Once the class is open, the script sends an email to desired email address.
 
 ### Sample Run
+#### Access Spire
+![alt text](http://i.imgur.com/BqSoyrZ.gif "Accessing Spire with Selenium")
+#### Display result
 ```
 -----------------------------------------------------------------
 Current Class Status
