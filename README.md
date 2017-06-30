@@ -1,5 +1,5 @@
 # ClassCheck 
-### Python 2.6
+### Python 2.7
 ### Objective
 This script checks the UMass classes on Spire through your Shopping Cart Repeatedly
 ### Why?
@@ -36,7 +36,19 @@ Please input the corresponding teacher listed above:
 Staff
 ```
 After inputing required information, this script will go on a (in)finite number of loops to see if that class is open.
-
-### Required Libraries
+### Using this script
+#### Required Libraries
 * Selenium - Web Scrapping
 * Yagmail  - Send Email
+
+There are a few functions that needs to be edited for it to work properly
+- ```send_email()```
+     - This function is for sending email to a desired email address when this script finds that the class is open.
+     - You have to assign the variables, ```smtp_email_username``` and ```smtp_email_password``` to a email account so that the script can use that account to send emails.
+     - You also need to assign the variable, ```email_to_be_sent``` to the email address you want the email to be sent to.
+- ```driver()```
+     - The driver uses the "browser" or webdriver, PhantomJS, a headless "browser" that does not have GUI and does not come with Selenium.
+     - I recommend downloading the Chrome webdriver (which has GUI, like in the gif) and install it at the ```python/script``` folder assuming that folder is properly set in your machine's environmental variables.
+     - The ```semester``` variable may need to change at different times.
+     
+
