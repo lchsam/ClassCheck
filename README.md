@@ -52,6 +52,6 @@ There are a few functions that needs to be edited for it to work properly
      - Once that is done, assign the variable ```browser``` to ```webdriver.Chrome```
      - The ```semester``` variable may need to change depending on what time it is and what semester(s) are available.
 - ```open_page_log_in(link, browser, tries=0)```
-     - ```username.send_keys``` and ```password.send_keys``` are functions that takes in your username and password as strings so that selenium can input the selected fields, i.e. the username and password variable.
+     - ```username.send_keys``` and ```password.send_keys``` are functions that take in your username and password as strings so that selenium can input the selected fields, i.e. the username and password variable.
      
 
