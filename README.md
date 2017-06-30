@@ -43,7 +43,8 @@ After inputing required information, this script will go on a (in)finite number 
 
 There are a few functions that needs to be edited for it to work properly
 - ```send_email()```
-     - This function is for sending email to a desired email address when this script finds that the class is open.
+     - This function is for sending email to a desired email address when this script finds that the class is open.'
+     - You can get rid of this function and all of its reference if you don't want this. If you do, keep reading.
      - You have to assign the variables, ```smtp_email_username``` and ```smtp_email_password``` to an email account so that the script can use that account to send emails.
      - You also need to assign the variable, ```email_to_be_sent``` to the email address you want the email to be sent.
 - ```driver()```
