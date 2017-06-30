@@ -7,7 +7,7 @@ As a college Freshman, it sucks to have the class I want to take to be full by t
 
 ### Sample Run
 #### Access Spire
-![alt text](http://imgur.com/a/P67h6 "Accessing Spire with Selenium")
+![alt text](http://i.imgur.com/veNbVsH.gif "Accessing Spire with Selenium")
 #### Display result
 ```
 -----------------------------------------------------------------
