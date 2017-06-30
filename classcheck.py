@@ -59,8 +59,8 @@ def open_page_log_in(link, browser, tries=0):
         username = browser.find_element_by_id("userid")
         password = browser.find_element_by_id("pwd")
         # Fills username and password field with data gotten from pythPhonian module
-        username.send_keys(pythPhonian.get_userid())
-        password.send_keys(pythPhonian.get_pass())
+        username.send_keys('insert string username for spire account')
+        password.send_keys('insert string password for spire account')
         if tries > 0:
             time.sleep(tries*0.1)
         # Submits password and username submitting through a tag with a value equal to 'Go'
