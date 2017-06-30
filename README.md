@@ -49,6 +49,7 @@ There are a few functions that needs to be edited for it to work properly
 - ```driver()```
      - The driver uses the "browser" or webdriver, PhantomJS, a headless "browser" that does not have GUI and does not come with Selenium.
      - I recommend downloading the Chrome webdriver (which has GUI, like in the gif) and install it at the ```python/script``` folder assuming that folder is properly set in your machine's environment variables.
-     - The ```semester``` variable may need to depending on what time it is and waht semesters are available.
+     - Once that is done, assign the variable ```browser``` to ```webdriver.Chrome```
+     - The ```semester``` variable may need to change depending on what time it is and what semester(s) are available.
      
 
