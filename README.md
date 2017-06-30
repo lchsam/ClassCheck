@@ -40,6 +40,3 @@ After inputing required information, this script will go on a (in)finite number 
 ### Required Libraries
 * Selenium - Web Scrapping
 * Yagmail  - Send Email
-
-### Note from Author
-> Don't take my word for it. This actually works. Try it out if you can lol.
