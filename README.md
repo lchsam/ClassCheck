@@ -50,7 +50,7 @@ There are a few functions that needs to be edited for it to work properly
 - ```driver()```
      - The driver uses the "browser" or webdriver, PhantomJS, a headless "browser" that does not have GUI and does not come with Selenium.
      - I recommend downloading the Chrome webdriver (which has GUI, like in the gif) and install it at the ```python/script``` folder assuming that folder is properly set in your machine's environment variables.
-     - Once that is done, assign the variable ```browser``` to ```webdriver.Chrome()```
+     - Once that is done, assign the variable ```browser``` to ```browser.Chrome()```
      - The ```semester``` variable may need to change depending on what time it is and what semester(s) are available.
 - ```open_page_log_in(link, browser, tries=0)```
      - ```username.send_keys``` and ```password.send_keys``` are functions that take in your username and password as strings so that selenium can input the selected fields, i.e. the username and password variable.
