@@ -2,8 +2,6 @@
 ### Python 2.7
 ### Objective
 This script checks your UMass course shopping cart through Spire repeatedly.
-### Why?
-As a college Freshman, it sucks to have the class I want to take to be full by the time I have the chance to enroll in it. To fix this problem, I wrote this script that checks the Course catalogue website of UMass (also known as Spire) every 5 minutes to see if my class is open. It'll continuously check for it until that class is open. Once the class is open, the script sends an email to a desired email address.
 
 ### Sample Run
 #### Access Spire
